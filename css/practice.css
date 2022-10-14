@@ -1,0 +1,48 @@
+
+.wrap-body{
+    width: 52.5%;
+    margin: 0 auto;
+}
+
+.home-page{
+    background-image: url(../images/bg3.jpg);
+    background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	color: #fff; 
+	position: relative; 
+}
+
+.row1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+
+}
+
+.wrap-box > .row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.row > .col-2-5{
+    width: 40%;
+}
+
+.row > .col-3-5{
+    width: 60%;
+}
+
+.row > .col-1-2{
+    width: 50%;
+}
+
+.box-text{
+    width: 480px;
+}
+
+.wrap-footer > .row {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
