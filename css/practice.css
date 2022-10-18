@@ -1,8 +1,12 @@
 
+/* Ancho de la pagina */
+
 .wrap-body{
     width: 52.5%;
     margin: 0 auto;
 }
+
+/* Fondo de la pagina  */
 
 .home-page{
     background-image: url(../images/bg3.jpg);
@@ -14,12 +18,16 @@
 	position: relative; 
 }
 
+/* Estilo del header */
+
 .row1{
     display: flex;
     align-items: center;
     justify-content: space-between; 
 
 }
+
+/* Cuadricula de la seccion home */
 
 .wrap-box > .row {
     display: flex;
@@ -38,11 +46,33 @@
     width: 50%;
 }
 
-.box-text{
+.wrap-col > .box-text{
     width: 480px;
 }
+
+/* dividir en 3 columnas el footer  */
 
 .wrap-footer > .row {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+}
+
+/* Cajas de la seccion blog  */
+
+.col-1-2{
+    width: 50%;
+}
+
+/* Estilos de la seccion contacts */
+
+.row2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 20px;
+
+}
+
+.t-center{
+    margin-top: 0px;
+    padding-top: 50px;
 }
