@@ -55,12 +55,26 @@
 .wrap-footer > .row {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 10px;
+
 }
 
 /* Cajas de la seccion blog  */
 
 .col-1-2{
     width: 50%;
+}
+
+#modelo_azul{
+    background-image: url(../images/15.jpg);
+}
+
+#corbatas{
+    background-image: url(../images/16.jpg);
+}
+
+#concierto{
+    background-image: url(../images/14.jpg);
 }
 
 /* Estilos de la seccion contacts */
@@ -76,3 +90,4 @@
     margin-top: 0px;
     padding-top: 50px;
 }
+
